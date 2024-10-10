@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <ItemListContainer/>
+    <ItemListContainer greeting={'Bienvenido a mi Ecommerce de Carteras Serene Bags'}/>
     {/* <Footer/> */}
     </>
   )
