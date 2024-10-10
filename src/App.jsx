@@ -1,10 +1,14 @@
-function App() {
+import {Home} from "./components/pages/Home";
+import {Navbar} from "./components/layout/navbar/Navbar";
 
+
+function App() {
   return (
-    <>
-    <h1>Limpieza del App.jsx</h1>
-    </>
-  )
+    <div>
+      <Navbar/>
+      <Home/>
+    </div>
+  );
 }
 
 export default App
