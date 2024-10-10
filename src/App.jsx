@@ -1,9 +1,11 @@
-function App() {
+import { Navbar } from "./components/layout/navbar/Navbar";
 
+
+function App() {
   return (
     <>
+    <Navbar/>
     <h1>Limpieza del App.jsx</h1>
-    
     </>
   )
 }
