@@ -6,7 +6,7 @@ export const Navbar =()=>{
         <>
         <div className="container-navbar">
 
-            <h2>Serene</h2>
+            <img src="https://res.cloudinary.com/dlf2ifmnk/image/upload/v1728584278/Serene_logo_React_emtwac.png" alt="logo de Serene" />
 
             <ul>
                 <li>Todas</li>
