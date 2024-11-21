@@ -4,7 +4,8 @@ import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
 import { Skeleton } from "@mui/material";
 import { db } from "../../../firebaseConfig";
-import { collection, getDocs, query, where } from "firebase/firestore";
+import { collection, getDocs, query, where, addDoc } from "firebase/firestore";
+// import { products } from "../../../products";
 
 export const ItemListContainer = () => {
   const { name } = useParams();
@@ -41,11 +42,18 @@ export const ItemListContainer = () => {
     );
   }
 
+  // const funcionParaAgregar = () => {
+  //   const productsCollection = collection(db, "products");
+  //   products.forEach((product) => {
+  //     addDoc(productsCollection, product);
+  //   });
+  // };
+
   return (
     <div>
-      <h2>Aca el titulo de la app </h2>
       <ItemList items={items} />
-      <h4>Aca algo mas </h4>
+
+      {/* <button onClick={funcionParaAgregar}>Cargar productos varios</button> */}
     </div>
   );
 };

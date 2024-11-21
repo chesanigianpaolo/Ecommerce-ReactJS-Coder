@@ -1,6 +1,6 @@
 export let products = [
     // {
-    //   id: "1",
+    //   // id: "1",
     //   title: "miniBag Olivia",
     //   price: 22000,
     //   description: "ideal para dia de cafe",
@@ -10,7 +10,7 @@ export let products = [
     //   category: "miniBags",
     // },
     {
-      id: "2",
+      // id: "2",
       title: "miniBag Clara",
       price: 23000,
       stock: 6,
@@ -20,7 +20,7 @@ export let products = [
         "https://res.cloudinary.com/dlf2ifmnk/image/upload/v1732195192/magenta_tlusys.png",
     },
     // {
-    //   id: "3",
+    //   // id: "3",
     //   title: "Bag Celeste",
     //   price: 38000,
     //   stock: 8,
@@ -31,7 +31,7 @@ export let products = [
     //     "https://res.cloudinary.com/dlf2ifmnk/image/upload/v1732195193/gabriela_sem1gd.png",
     // },
     {
-      id: "4",
+      // id: "4",
       title: "Bag Clásica",
       price: 42000,
       stock: 10,
