@@ -10,7 +10,7 @@ const Counter = ({ stock, agregarAlCarrito, totalInCart }) => {
     if (stock - totalInCart > contador) {
       setContador(contador + 1);
     } else {
-      alert("stock maximo");
+      alert("stock máximo");
     }
   };
   const restar = () => {
@@ -35,8 +35,3 @@ const Counter = ({ stock, agregarAlCarrito, totalInCart }) => {
 };
 
 export default Counter;
-
-// { title, descripcion, image, cantidades: 2 }
-
-// let carrito = [{ title, descripcion, image, cantidades: 2 } ]
-// let productos = [{ title, descripcion, image}]

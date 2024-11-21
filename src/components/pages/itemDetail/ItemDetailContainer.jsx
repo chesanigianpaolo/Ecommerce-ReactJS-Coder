@@ -1,11 +1,9 @@
 import { useContext, useEffect, useState } from "react";
-
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
 import { CartContext } from "../../../context/CartContext";
 import { toast } from "sonner";
 import { db } from "../../../firebaseConfig";
-
 import { collection, doc, getDoc } from "firebase/firestore";
 
 const ItemDetailContainer = () => {

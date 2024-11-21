@@ -1,23 +1,3 @@
-// import { Navbar } from "./components/layout/navbar/Navbar";
-// import { ItemListContainer } from "./components/pages/itemListContainer/itemListContainer";
-// import { Footer } from "./components/layout/footer/Footer";
-// import CartContainer from "./components/pages/cart/CartContainer";
-// import Counter from "./components/common/counter/Counter";
-
-// function App() {
-//   return (
-//     <>
-//       <Navbar />
-//       <Counter />
-//       <ItemListContainer />
-//       <CartContainer />
-//       <Footer />
-//     </>
-//   );
-// }
-
-// export default App;
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ItemListContainer } from "./components/pages/itemListContainer/ItemListContainer";
 import CartContainer from "./components/pages/cart/CartContainer";
