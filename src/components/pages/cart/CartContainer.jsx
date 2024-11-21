@@ -10,7 +10,7 @@ const CartContainer = () => {
 
   return (
     <div>
-      <h1>Aca el carrito</h1>
+      <h1>Bienvenid@ al carrito, pronto tendrás tu Serene Bag</h1>
 
       {cart.map((product) => {
         return (

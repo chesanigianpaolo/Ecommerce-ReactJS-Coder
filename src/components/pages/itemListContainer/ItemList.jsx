@@ -4,7 +4,6 @@ import ModalCustom from "../../common/ModalCustom";
 const ItemList = ({ items }) => {
   return (
     <>
-      <h2>Listado de productos</h2>
       <div
         style={{
           display: "flex",

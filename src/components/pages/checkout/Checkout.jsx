@@ -23,10 +23,11 @@ const Checkout = () => {
   const funcionDelFormulario = (evento) => {
     evento.preventDefault();
     const total = getTotalAmount();
+
     // comunicarnos con la api
     const order = {
       buyer: userInfo,
-      items: cart, //[ {} {} {}]
+      items: cart,
       total: total,
     };
     let refCollection = collection(db, "orders");
@@ -62,19 +63,19 @@ const Checkout = () => {
       <form onSubmit={funcionDelFormulario}>
         <input
           type="text"
-          placeholder="jorge duje"
+          placeholder="jorgito pérez"
           name="name"
           onChange={capturarInfo}
         />
         <input
           type="email"
-          placeholder="jorge@gmail.com"
+          placeholder="finalReact@gmail.com"
           name="email"
           onChange={capturarInfo}
         />
         <input
           type="text"
-          placeholder="1155444878"
+          placeholder="3754439602"
           name="phoneNumber"
           onChange={capturarInfo}
         />
@@ -86,11 +87,3 @@ const Checkout = () => {
 };
 
 export default Checkout;
-// {
-//  19
-//  1 name ---> "pepe"
-// }
-// fetch("users" , {
-//   method: "PATCH",
-//   body: {name: "pepe"}
-// })
